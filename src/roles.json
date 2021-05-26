@@ -1,153 +1,151 @@
 [
   {
     "id": "washerwoman",
-    "name": "Washerwoman",
+    "name": "Waschfrau",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 26,
-    "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
+    "firstNight": 21,
+    "firstNightReminder": "Nenne der Waschfrau die zwei Spieler und die Rolle. Gib dem korrekten Spieler den Dorfbewohner-Token und dem anderen den falsch-Token.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Townsfolk",
-        "Wrong"],
+    "reminders": ["Dorfbewohner",
+        "falsch"],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
+    "ability": "In der ersten Nacht nennt dir der Erzähler zwei Spieler und eine Dorfbewohner-Rolle, die einer der beiden Spieler hat."
   },
   {
     "id": "librarian",
-    "name": "Librarian",
+    "name": "Bibliothekar",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 27,
-    "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
+    "firstNight": 22,
+    "firstNightReminder": "Nenne dem Bibliothekar die zwei Spieler und die Rolle. Gib dem korrekten Spieler den Außenseiter-Token und dem anderen den falsch-Token.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Outsider",
-        "Wrong"],
+    "reminders": ["Außenseiter","falsch"],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
+    "ability": "In der ersten Nacht nennt dir der Erzähler zwei Spieler und eine Außenseiter-Rolle, die einer der beiden Spieler hat. Sollte es keinen Spieler mit einer Außenseiter-Rolle geben, sagt dir der Erzähler stattdessen: „Es gibt keine Außenseiter.“"
   },
   {
     "id": "investigator",
-    "name": "Investigator",
+    "name": "Ermittler",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 28,
-    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
+    "firstNight": 23,
+    "firstNightReminder": "Nenne dem Ermittler die zwei Spieler und die Rolle. Gib dem korrekten Spieler den Minion-Token und dem anderen den falsch-Token.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Minion",
-        "Wrong"],
+    "reminders": ["Minion","falsch"],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Minion."
+    "ability": "In der ersten Nacht nennt dir der Erzähler zwei Spieler und eine Minion-Rolle, die einer der beiden Spieler hat."
   },
   {
     "id": "chef",
-    "name": "Chef",
+    "name": "Koch",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 29,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
+    "firstNight": 24,
+    "firstNightReminder": "Nenne dem Koch die Anzahl böser Nachbarpaare.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many pairs of evil players there are."
+    "ability": "In der ersten Nacht nennt dir der Erzähler die Anzahl, wie oft zwei böse Spieler nebeneinander sitzen."
   },
   {
     "id": "empath",
     "name": "Empath",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 30,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
-    "otherNight": 47,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "firstNight": 25,
+    "firstNightReminder": "Nenne dem Empath die Anzahl böser Spieler unter seinen lebenden Nachbarn.",
+    "otherNight": 44,
+    "otherNightReminder": "Nenne dem Empath die Anzahl böser Spieler unter seinen lebenden Nachbarn.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+    "ability": "Jede Nacht nennt dir der Erzähler die Anzahl der bösen Spieler unter deinen nächsten lebenden Nachbarn."
   },
   {
     "id": "fortuneteller",
-    "name": "Fortune Teller",
+    "name": "Wahrsager",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 31,
-    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
-    "otherNight": 48,
-    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
-    "reminders": ["Red herring"],
+    "firstNight": 26,
+    "firstNightReminder": "Gib einem Spieler den Red-Herring-Token. Wenn der Wahrsager dir seine Ziele genannt hat, sage ihm „Ja“ oder „Nein“.",
+    "otherNight": 45,
+    "otherNightReminder": "Wenn der Wahrsager dir seine Ziele genannt hat, sage ihm „Ja“ oder „Nein“.",
+    "reminders": ["Red Herring"],
     "setup": false,
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    "ability": "Sobald du diese Rolle erhältst, legt der Erzähler einen guten Spieler fest. (Dieser Spieler wird auch „Red Herring“ genannt.) Jede Nacht nenne dem Erzähler zwei Spieler. Der Erzähler sagt dir: „Ja“, falls sich unter diesen Spielern mindestens ein Dämon befindet und ansonsten „Nein“. Der „Red Herring“ wird für diese Fähigkeit auch als Dämon gewertet."
   },
   {
     "id": "undertaker",
-    "name": "Undertaker",
+    "name": "Bestatter",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 50,
-    "otherNightReminder": "If a player was executed today: Show that player\u2019s character token.",
-    "reminders": ["Executed"],
+    "otherNight": 47,
+    "otherNightReminder": "Wenn ein Spieler gelyncht wird, gebe ihm den Gelyncht-Token. Nenne dem Bestatter nachts den Spieler und die Rolle.",
+    "reminders": ["Gelyncht"],
     "setup": false,
-    "ability": "Each night*, you learn which character died by execution today."
+    "ability": "Jede Nacht nennt dir der Erzähler einen Spieler, der am Vortag gelyncht wurde, und dessen Rolle."
   },
   {
     "id": "monk",
-    "name": "Monk",
+    "name": "Mönch",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 12,
-    "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
-    "reminders": ["Protected"],
+    "otherNight": 10,
+    "otherNightReminder": "Gebe dem Spieler, den der Mönch wählt den Schutz-Token.",
+    "reminders": ["Schutz"],
     "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    "ability": "Jede Nacht nenne dem Erzähler einen Spieler, außer dir selbst. Dieser Spieler kann in dieser Nacht nicht sterben."
   },
   {
     "id": "ravenkeeper",
-    "name": "Ravenkeeper",
+    "name": "Rabenhüter",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 38,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player\u2019s character token.",
+    "otherNight": 42,
+    "otherNightReminder": "Falls der Rabenhüter in der Nacht gestorben ist, wickle seine Fähigkeit ab.",
     "reminders": [],
     "setup": false,
-    "ability": "If you die at night, you are woken to choose a player: you learn their character."
+    "ability": "Wenn du während der Nacht stirbst, teilt dir der Erzähler dies mit. Nenne dann dem Erzähler einen Spieler. Der Erzähler nennt dir die Rolle dieses Spielers."
   },
   {
     "id": "virgin",
-    "name": "Virgin",
+    "name": "Jungfer",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": ["F. verbraucht"],
     "setup": false,
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+    "ability": "Wenn du zum ersten mal angeklagt wirst und der Spieler, der dich angeklagt hat, eine Dorfbewohner-Rolle hat, wird er sofort gelyncht."
   },
   {
     "id": "slayer",
-    "name": "Slayer",
+    "name": "Schlächter",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": ["F. verbraucht"],
     "setup": false,
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+    "ability": "Einmal pro Spiel, während der Diskussion, schreibe „Schlächter: SPIELERNAME“ in den öffentlichen Chat. Ist der von dir erwähnte Spieler ein Dämon, stirbt er."
   },
   {
     "id": "soldier",
-    "name": "Soldier",
+    "name": "Soldat",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -156,11 +154,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You are safe from the Demon."
+    "ability": "Du kannst nachts nicht sterben."
   },
   {
     "id": "mayor",
-    "name": "Mayor",
+    "name": "Bürgermeister",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -169,24 +167,24 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
+    "ability": "1. Immer wenn du nachts sterben würdest, kann der Erzähler entscheiden, dass stattdessen ein anderer Spieler stirbt. Der Spieler, den der Erzähler wählt, muss auch in der Lage sein zu sterben. Die Ursache für das sterben des anderen Spielers bleibt die gleiche. 2. Wenn am Ende eines Tages kein Spieler gelyncht wurde und noch genau drei Spieler leben, gewinnt dein Team das Spiel."
   },
   {
     "id": "butler",
     "name": "Butler",
     "edition": "tb",
     "team": "outsider",
-    "firstNight": 32,
-    "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
-    "otherNight": 49,
-    "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
-    "reminders": ["Master"],
+    "firstNight": 27,
+    "firstNightReminder": "Gib dem Spieler, welchen der Butler dir nennt, den Meister-Token.",
+    "otherNight": 46,
+    "otherNightReminder": "Gib dem Spieler, welchen der Butler dir nennt, den Meister-Token.",
+    "reminders": ["Meister"],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+    "ability": "Jede Nacht nenne dem Erzähler einen Spieler, außer dir selbst (dieser Spieler wird auch „Meister“ genannt). Du kannst am Folgetag bei Abstimmungen nur für „Ja“ stimmen, falls der gewählte Spieler für diese Abstimmung bereits mit „Ja“ abgestimmt hat."
   },
   {
     "id": "drunk",
-    "name": "Drunk",
+    "name": "Säufer",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -194,13 +192,13 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Drunk"],
+    "remindersGlobal": ["betrunken"],
     "setup": true,
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+    "ability": "Sobald du diese Rolle erhältst, entscheidet sich der Erzähler für eine Dorfbewohner-Rolle, welche nicht als Start-Rolle oder Bluff-Rolle vergeben wurde und nennt dir diese Rolle als deine Rolle. Jedoch bist du tatsächlich der Säufer und erfährst dies aber nicht. Der Erzähler tut dir gegenüber so, als ob du die Rolle hättest, die er dir als deine Rolle genannt hat. Könntest du durch diese Rolle Informationen erhalten, kann der Erzähler diese Informationen beliebig verfälschen."
   },
   {
     "id": "recluse",
-    "name": "Recluse",
+    "name": "Einsiedler",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -209,11 +207,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+    "ability": "Immer wenn du mit der Rollen-Fähigkeit eines anderen Spielers interagierst, kann der Erzähler entscheiden, dass du so interagierst, als ob du eine Minion- oder Dämonen-Rolle hättest, und/oder als ob du böse währst. Diese Fähigkeit funktioniert auch noch, wenn du tot bist."
   },
   {
     "id": "saint",
-    "name": "Saint",
+    "name": "Heiliger",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -222,46 +220,46 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are executed, your team loses."
+    "ability": "Wenn du gelyncht wirst, verliert dein Team das Spiel."
   },
   {
     "id": "poisoner",
-    "name": "Poisoner",
+    "name": "Giftmischer",
     "edition": "tb",
     "team": "minion",
-    "firstNight": 14,
-    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
-    "otherNight": 7,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
-    "reminders": ["Poisoned"],
+    "firstNight": 10,
+    "firstNightReminder": "Gib dem Spieler, welchen der Giftmischer dir nennt, den Vergiftet-Token.",
+    "otherNight": 5,
+    "otherNightReminder": "Gib dem Spieler, welchen der Giftmischer dir nennt, den Vergiftet-Token.",
+    "reminders": ["Vergiftet"],
     "setup": false,
-    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day"
+    "ability": "Jede Nacht nenne dem Erzähler einen Spieler. Dieser Spieler ist bis zum Ende des nächsten Tages vergiftet. Solange ein Spieler vergiftet ist, gilt folgendes: Die Rollen-Fähigkeiten des Spielers funktionieren nicht. Sollte der Spieler eine Fähigkeit einsetzen, die er nur einmal einsetzen kann, geht diese verloren. Der Spielleiter tut gegenüber dem Spieler so, als ob seine Fähigkeit normal funktionieren würde. Könnte ein Spieler durch seine Rollen-Fähigkeiten Informationen erhalten, kann der Erzähler diese Informationen beliebig verfälschen."
   },
   {
     "id": "spy",
-    "name": "Spy",
+    "name": "Spion",
     "edition": "tb",
     "team": "minion",
-    "firstNight": 40,
-    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
-    "otherNight": 61,
-    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "firstNight": 35,
+    "firstNightReminder": "Zeige dem Spion die Spielansicht.",
+    "otherNight": 57,
+    "otherNightReminder": "Zeige dem Spion die Spielansicht.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
+    "ability": "1. Immer wenn du mit der Rollen-Fähigkeit eines anderen Spielers interagierst, kann der Erzähler entscheiden, dass du so interagierst, als ob du eine Dorfbewohner- oder Außenseiter-Rolle hättest, und/oder als ob du gut währst. Diese Fähigkeit funktioniert auch noch, wenn du tot bist. 2. Jede Nacht zeigt dir der Erzähler die Spielansicht aus Sicht des Erzählers."
   },
   {
     "id": "scarletwoman",
-    "name": "Scarlet Woman",
+    "name": "Sukkuba",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 18,
-    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-    "reminders": ["Demon"],
+    "otherNight": 15,
+    "otherNightReminder": "Falls der Dämon stirbt, gib der Sukkuba den Dämon-Token.",
+    "reminders": ["Dämon"],
     "setup": false,
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)"
+    "ability": "Wenn der Dämon stirbt und danach noch mindestens vier Spieler leben, wird deine Rolle zu der Rolle dieses Dämons. Wanderer werden bei den Spielern nicht mitgezählt."
   },
   {
     "id": "baron",
@@ -274,7 +272,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]"
+    "ability": "Bei der Rollenverteilung werden zwei Dorfbewohner durch Außenseiter ersetzt."
   },
   {
     "id": "imp",
@@ -283,11 +281,11 @@
     "team": "demon",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 22,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
-    "reminders": ["Dead"],
+    "otherNight": 19,
+    "otherNightReminder": "Gib dem Spieler, welchen der Imp dir nennt, den Tot-Token. Verändere ggf. die Rolle eines Minions und teile es dem Spieler mit.",
+    "reminders": ["Tot"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+    "ability": "In jeder Nacht, außer der ersten, nenne dem Erzähler einen Spieler. Dieser Spieler stirbt. Solltest du selbst durch diese Fähigkeit sterben, wird die Rolle eines Spielers, mit einer Minion-Rolle, zur Rolle: Imp."
   },
   {
     "id": "bureaucrat",
